@@ -1,0 +1,138 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background:url('../images/bg.jpg');
+  background-repeat:repeat;
+  padding:0;
+  margin:0;
+  font-family: asap, sans-serif;
+  font-size:100%;
+}
+
+#costa, #resources, #quote, #json, #appserve, #pouch {
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-size: 40px;
+}
+
+#quote p.quote {font-family:marck-script;font-size:175%;}
+#quote p.source {text-align:right;font-size:80%;}
+
+#noSql img {
+  border-radius:15px;
+  box-shadow:0 0 12px 0 #bbbbbb;
+}
+
+#json {
+  font-size:16px;
+}
+
+#json p {
+  font-weight: bold;
+  font-size:20px;
+}
+
+#json div.item1, #json div.item2, #json div.item3 {
+  display: inline-block;
+  padding:15px;
+  border-radius:15px;
+  background:#ffffff;
+  box-shadow:2px 2px 10px 0 #aaaaaa;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#json.present div.item1 {
+  -webkit-transform: translateY(-50px) rotate(-10deg);
+  -moz-transform: translateY(-50px) rotate(-10deg);
+  -ms-transform: translateY(-50px) rotate(-10deg);
+  -o-transform: translateY(-50px) rotate(-10deg);
+  transform: translateY(-50px) rotate(-10deg);
+}
+
+#json.present div.item2 {
+  -webkit-transform: translateY(30px) translateX(50px) rotate(20deg);
+  -moz-transform: translateY(30px) translateX(50px) rotate(20deg);
+  -ms-transform: translateY(30px) translateX(50px) rotate(20deg);
+  -o-transform: translateY(30px) translateX(50px) rotate(20deg);
+  transform: translateY(30px) translateX(50px) rotate(20deg);
+}
+
+#json.present div.item3 {
+  -webkit-transform: translateY(50px) translateX(150px) rotate(10deg);
+  -moz-transform: translateY(50px) translateX(150px) rotate(10deg);
+  -ms-transform: translateY(50px) translateX(150px) rotate(10deg);
+  -o-transform: translateY(50px) translateX(150px) rotate(10deg);
+  transform: translateY(50px) translateX(150px) rotate(10deg);
+}
+
+
+
+#costa div.row img, #costa div.row p {
+  display: inline-block;
+  vertical-align:middle;
+  font-size:40px;
+  margin:5px;
+}
+
+
+
+/* Typography */
+
+h1 {font-size:250%;font-weight:bold;color:#000000;margin:.2em 0;}
+h2 {font-size:180%;font-weight:bold;color:#000000;margin:.2em 0;}
+h3 {font-size:150%;font-weight:bold;color:#000000;margin:.2em 0;}
+h4 {font-size:120%;font-weight:bold;color:#000000;margin:.2em 0;}
+h5 {font-size:90%;font-weight:bold;color:#000000;margin:.2em 0;}
+h6 {font-size:80%;color:#000000;margin:.2em 0;}
+p {margin:1em 0;}
+code, pre {font-family:source-code-pro;}
+
+ul {list-style-type:none;margin-left:0;margin-top:.2em;margin-bottom:.2em}
+ol {list-style-type:decimal;margin-left:1em;margin-top:.2em;margin-bottom:.2em}
+
+li {
+  margin-left: 0;
+  padding: .1em 0;
+}
+
+.pic {
+  border-radius:15px;
+}
+
+.normal {font-weight:normal;}
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
+.underline {text-decoration:underline;}
+.black {color:#000000;}
+.grey {color:#293140;}
+.lightgrey {color:#a9b1c0;}
+.white {color:#ffffff;}
+
+.xl {font-size:240%;}
+.big {font-size:160%;}
+.med {font-size:140%;}
+.small {font-size:90%;}
+.xs {font-size:80%;}
+
+.left {text-align:left;}
+.right {text-align:right;}
+.center {text-align:center;}
+
+.hidden {display:none !important;}
+
+a {
+  color: #062bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+/*  opacity: 0.7;
+  text-decoration: underline;
+*/}
